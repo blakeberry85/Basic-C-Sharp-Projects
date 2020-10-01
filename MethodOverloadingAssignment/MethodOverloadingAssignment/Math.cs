@@ -31,15 +31,14 @@ namespace MethodOverloadingAssignment
             catch (FormatException)
             {
                 Console.WriteLine("That string cannot be converted to an integer!");
+                Console.ReadLine();
+                Environment.Exit(0);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
-            }
-            finally
-            {
                 Console.ReadLine();
-                Environment.Exit(0);
+                Environment.Exit(1);
             }
             convertOperand = convertOperand / 3;
             return convertOperand;
