@@ -8,28 +8,22 @@ namespace ClassesMethodsAssignment
 {
     public class Math
     {
-        public int userOperand { get; set; }
-        public int result { get; set; }
-
-        public static Math Multiply5(Math math)
+        public static int Multiply5(int operand)
         {
-            math.result = math.userOperand * 5;
-            return math;
+            operand = operand * 5;
+            return operand;
         }
 
-        public static Math Add50(Math math)
+        public static int Add50(int operand)
         {
-            math.result = math.result + 50;
-            return math;
+            operand = operand + 50;
+            return operand;
         }
 
-        public static Math Multiply2(Math math)
+        public static int Multiply2(int operand)
         {
-            math.result = math.result * 2;
-            return math;
+            operand = operand * 2;
+            return operand;
         }
     }
-
-
-
 }
