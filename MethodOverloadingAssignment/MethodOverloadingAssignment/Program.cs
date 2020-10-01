@@ -21,7 +21,7 @@ namespace MethodOverloadingAssignment
             Console.ReadLine();
 
             Math divide3 = new Math();
-            int divideResult = Math.Operations("eightteen");
+            int divideResult = Math.Operations("18");
             Console.WriteLine(divideResult);
             Console.ReadLine();
         }
