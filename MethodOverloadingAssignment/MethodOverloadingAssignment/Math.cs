@@ -32,7 +32,7 @@ namespace MethodOverloadingAssignment
             {
                 Console.WriteLine("That string cannot be converted to an integer!");
                 Console.ReadLine();
-                Environment.Exit(0);
+                Environment.Exit(1);
             }
             catch (Exception ex)
             {
